@@ -9,22 +9,17 @@
         *{
             font-family: Arial, Helvetica, sans-serif;
         }
-
-
     </style>
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" method="POST" autocomplete="off"><!-- metodo get: tudo o que for preenchido no formaulario de resposta sera mostrado no endereço do site / recebe ate 3000bytes(3 mil letras)/não usar fotos ou videos -->
-    <!--metodo post : tudo que for digitado não será mostrado no endereço, mas mesmo assim não estará protegido pois o usuário pode ver os dados digitados acessanto o "inspecionar" da página / pode usar mais de 3000 bytes /bom para enviar downloads -->
-        
-        <p><label for="inome">Nome: </label> <!-- label associa o nome a janela-->
-        <input type="text" name="nome" id="inome"></p>
-       
-        <p><label for="isobrenome">Sobrenome</label>
-         <input type="text" name="sobrenome" id="isobrenome"></p>
+    <form action="cadastro.php" method="post" autocomplete="
+    off">
+        <p><label for="inome">Nome:</label>
+             <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label>
+             <input type="text" name="sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
-
     </form>
     
 </body>
