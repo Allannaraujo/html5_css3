@@ -1,23 +1,30 @@
 @charset "UTF-8";
 
-/*Todas as demais mídias*/
+/*tODAS AS DEMAIS MIDIAS*/
 
-/*Typical Device Breakpoints
-
-
-Pequenas telas: até 600px
-Celular: de 600px a 768px
-Tablet: 768px a 992px
-Desktop: 992px a 1200px
-Grandes telas: aco,a de 1200px
-
+/*TYPICAL DEVICE BREAKPOINTS
+PEQUENAS TELAS: ATÉ 600PX
+CELULAR:DE 600PX ATÉ 768PX
+TABLET: 768PX ATÉ 992PX
+DESKTOP:998PX ATÉ 1200PX
+GRANDES TELAS:ACIMA DE 1200PX
 
 */
-
-@media print{
+@media print {
+    
+}
+@media screen and (min-width: 768px) and (max-width:992px){ /*tablet*/
 
 }
-@media screen and(min-width:992px) and (max-width:1200px){
+
+
+@media screen and (min-width: 992px) and (max-width:1200px){ /*desktop*/
+    body{
+        background-image:url(../);
+    }
 
 }
-@media screen and(min-width:1200px)
+@media screen and (min-width: 1200px){/*telas grandes*/
+
+}
+    
