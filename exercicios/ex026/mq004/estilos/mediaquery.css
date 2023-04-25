@@ -12,21 +12,43 @@ GRANDES TELAS:ACIMA DE 1200PX
 */
 @media print {
     
+} 
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width:992px){
+img#phone{display:none ;}
+img#tablet{display: block;}
+img#print{display: none;}
+img#pc{display: none;}
+img#tv{display: none;}
+body{background-image: url(../imagens/back-tablet.jpg)
 }
-@media screen and (min-width: 768px) and (max-width:992px){ 
-    /*tablet*/
-body{
-        background-image:url();
-    }
-}
+   
 
-
-@media screen and (min-width: 992px) and (max-width:1200px){ 
-    /*desktop*/
+        
     
 
-}
-@media screen and (min-width: 1200px){/*telas grandes*/
+
+ /*desktop*/
+@media screen and (min-width: 992px) and (max-width:1200px){ 
+    img#phone{display:none ;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: block;}
+    body{background-image: url(../imagens/back-pc.jpg)
+    
+
+}/*telas grandes*/
+@media screen and (min-width: 1200px){
+    img#phone{display:none ;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: block;}
+    body{background-image: url(../imagens/back-tablet.jpg)
+    
+
+    }
 
 }
     
